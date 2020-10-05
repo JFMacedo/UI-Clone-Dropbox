@@ -3,7 +3,7 @@ UI Clone - Dropbox Home
 </h1>
 
 <p align="center">Homepage do Dropbox responsivo para fins de estudos.</p>
-<p align="center">Clique <a href="">aqui</a> para ver um preview.</p>
+<p align="center">Clique <a href="https://jfmacedo-clone-dropbox.netlify.app/">aqui</a> para ver um preview.</p>
 <hr>
 
 ## Desenvolvido por

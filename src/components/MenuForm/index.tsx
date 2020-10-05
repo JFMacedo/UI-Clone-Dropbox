@@ -8,6 +8,10 @@ import {
 } from './styles';
 
 const MenuForm: React.FC = () => {
+  function handleToggle() {
+    if (window.toggleActiveMenu) window.toggleActiveMenu();
+  }
+ 
   return (
     <Container>
       <Navigation>
@@ -16,7 +20,7 @@ const MenuForm: React.FC = () => {
           <span>Dropbox</span>
         </h1>
 
-        <button className="action--close">✕</button>
+        <button className="action--close" onClick={handleToggle}>✕</button>
       </Navigation>
 
       <Form>
